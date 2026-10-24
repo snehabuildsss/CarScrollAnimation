@@ -1,16 +1,82 @@
-# React + Vite
+# ItzFizz — Animated Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, interactive landing page featuring a cinematic supercar animation, glowing neon-green trail effects, and floating statistic cards.
 
-Currently, two official plugins are available:
+## 🔗 Project Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Website:** [https://snehabuildsss.github.io/CarScrollAnimation/](https://snehabuildsss.github.io/CarScrollAnimation/)
+- **GitHub Repository:** [https://github.com/snehabuildsss/CarScrollAnimation](https://github.com/snehabuildsss/CarScrollAnimation)
+- **GitHub Profile:** [https://github.com/snehabuildsss](https://github.com/snehabuildsss)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern dark UI with neon-green accents.
+- Scroll-driven supercar animation.
+- Curved SVG text with glowing neon trail effects.
+- Four colorful statistic cards with staggered entrance animations.
+- Smooth animations powered by GSAP and ScrollTrigger.
+- Responsive styling for different screen sizes.
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript
+- CSS3
+- GSAP
+- GSAP ScrollTrigger
+- SVG
+
+## 🚀 Run Locally
+
+**Prerequisites:** Node.js and npm.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/snehabuildsss/CarScrollAnimation.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd CarScrollAnimation
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 📦 Production Build
+
+Generate an optimized production build:
+
+```bash
+npm run build
+```
+
+The generated files will be available in the `dist/` directory.
+
+## 🌐 Deployment
+
+The project is hosted on GitHub Pages, with GitHub Actions used to build and deploy the Vite application.
+
+## 👩‍💻 Author
+
+**Sneha Sharma**
+
+GitHub: [@snehabuildsss](https://github.com/snehabuildsss)
+
+---
+
+*Created as a web development project exploring interactive UI design and scroll-based animations.*
